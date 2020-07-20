@@ -90,11 +90,12 @@ nav input {
 
 .carousel-item {
   height: 500px;
-  overflow: hidden;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
 }
 
 .carousel-image-1 {
-  background: url(../img/annie-spratt-8mqOw4DBBSg-unsplash.jpg);
+  background: url(../img/yousef-espanioly-AWYI4-h3VnM-unsplash.jpg);
   background-size: cover;
 }
 
