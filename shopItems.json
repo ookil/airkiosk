@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "img": "./img/pic_1.png",
+        "title": "First Image",
+        "description": "Lorem ipsum",
+        "href": "#",
+        "price": "23.90"
+    },
+    {
+        "id": 2,
+        "img": "./img/pic_2.png",
+        "title": "Second Image",
+        "description": "AFDGS89",
+        "href": "#",
+        "price": "26.99"
+    },
+    {
+        "id": 3,
+        "img": "./img/pic_3.png",
+        "title": "Third Image",
+        "description": "DSFDSF",
+        "href": "#",
+        "price": "12.80"
+    },
+    {
+        "id": 4,
+        "img": "./img/pic_4.png",
+        "title": "Fourth Image",
+        "description": "1238XCB",
+        "href": "#",
+        "price": "39.90"
+    },
+    {
+        "id": 5,
+        "img": "./img/pic_5.png",
+        "title": "Fifth Image",
+        "description": "NDFGLFD",
+        "href": "#",
+        "price": "96.90"
+    }
+]
