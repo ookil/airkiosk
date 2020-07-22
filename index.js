@@ -47,7 +47,7 @@ const loadCarousel = () => {
     nextArrow: $(".next"),
     responsive: [
       {
-        breakpoint: 1200,
+        breakpoint: 1300,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,

@@ -170,22 +170,59 @@ nav input {
   max-width: 70px;
 }
 
-.fa-google-plus-square {
+.prev,
+.next {
+  cursor: pointer;
+}
+
+#sns a {
+  text-decoration: none;
+}
+
+#sns .fa-facebook-square {
+  color: #007bff;
+}
+
+#sns .fa-facebook-square:hover {
+  color: #0068d6;
+}
+
+#sns .fa-google-plus-square {
   color: #dd4b39;
 }
 
-.fa-pinterest-square {
+#sns .fa-google-plus-square:hover {
+  color: #b94131;
+}
+
+#sns .fa-pinterest-square {
   color: #cb2027;
 }
 
-.fa-youtube-square {
+#sns .fa-pinterest-square:hover {
+  color: #b81f24;
+}
+
+#sns .fa-youtube-square {
   color: #bb0000;
 }
 
-.fa-linkedin {
+#sns .fa-youtube-square:hover {
+  color: #aa0202;
+}
+
+#sns .fa-linkedin {
   color: #007bb5;
 }
 
-.fa-instagram-square {
+#sns .fa-linkedin:hover {
+  color: #026ea0;
+}
+
+#sns .fa-instagram-square {
   color: #125688;
+}
+
+#sns .fa-instagram-square:hover {
+  color: #0e4974;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,7 +31,10 @@
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="fas fa-user pr-1"></i>
-            <span class="d-none d-lg-inline-block">Moje konto</span>
+            <span class="d-none d-lg-inline-block"
+              ><span lang="pl">Moje konto</span
+              ><span lang="eng">My account</span>
+            </span>
           </a>
         </li>
         <li class="nav-item">
@@ -50,11 +53,11 @@
             aria-haspopup="true"
             aria-expanded="false"
           >
-            PL
+            <span lang="pl">PL</span><span lang="eng">ENG</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownLang">
-            <a href="#" class="dropdown-item active">PL</a>
-            <a href="#" class="dropdown-item">Lang1</a>
+            <a href="#" id="pl-lang" class="dropdown-item active">PL</a>
+            <a href="#" id="eng-lang" class="dropdown-item">ENG</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -84,7 +87,8 @@
         <img src="/img/logo.svg" alt="logo" width="80" height="80" />
       </a>
       <div class="d-none d-lg-block ml-lg-auto">
-        Numer twojej Rezerwacji
+        <span lang="pl">Numer twojej Rezerwacji</span>
+        <span lang="eng">Your reservation number</span>
       </div>
       <button
         class="navbar-toggler"
@@ -105,19 +109,30 @@
             <a href="#" class="nav-link fancy-link pl-2">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link fancy-link pl-2">Dostawa</a>
+            <a href="#" class="nav-link fancy-link pl-2"
+              ><span lang="pl">Dostawa</span><span lang="eng">Delivery</span></a
+            >
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link fancy-link pl-2">Usługi</a>
+            <a href="#" class="nav-link fancy-link pl-2"
+              ><span lang="pl">Usługi</span><span lang="eng">Services</span></a
+            >
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link fancy-link pl-2">Aukcje</a>
+            <a href="#" class="nav-link fancy-link pl-2"
+              ><span lang="pl">Aukcje</span><span lang="eng">Auctions</span></a
+            >
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link fancy-link pl-2">Nowości</a>
+            <a href="#" class="nav-link fancy-link pl-2"
+              ><span lang="pl">Nowości</span
+              ><span lang="eng">New arrivals</span></a
+            >
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link fancy-link pl-2">Promocje</a>
+            <a href="#" class="nav-link fancy-link pl-2"
+              ><span lang="pl">Promocje</span><span lang="eng">Sale</span></a
+            >
           </li>
         </ul>
         <form class="form-inline ml-auto">
@@ -126,6 +141,13 @@
               type="text"
               class="form-control"
               placeholder="Szukaj produktu..."
+              lang="pl"
+            />
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search..."
+              lang="eng"
             />
             <div class="input-group-append">
               <span class="input-group-text">
@@ -150,13 +172,17 @@
             <div
               class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center"
             >
-              <h3 class="display-4">Adoptuj sukulenty</h3>
+              <h3 class="display-4">
+                <span lang="pl">Adoptuj sukulenty</span>
+                <span lang="eng">Adopt succulents</span>
+              </h3>
               <p class="d-none d-md-inline">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
                 dolores et quae. Fugiat, cum minima.
               </p>
               <a href="#" class="btn btn-outline-light btn-lg mt-2">
-                Nasze okazy!
+                <span lang="pl">Nasze okazy!</span>
+                <span lang="eng">See more!</span>
               </a>
             </div>
           </div>
@@ -213,14 +239,15 @@
                   alt=""
                   class="card-image-top p-3 img-fluid mb-auto"
                 />
-                <h5 class="card-title text-primary">Kaktusy</h5>
+                <h5 class="card-title text-primary">Dignissimos</h5>
                 <p class="card-text text-muted">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Dignissimos, dicta?
                 </p>
                 <a href="#" class="btn btn-outline-primary stretched-link"
-                  >Poznaj całą ofertę!</a
-                >
+                  ><span lang="pl">Poznaj całą ofertę!</span
+                  ><span lang="eng">See more!</span>
+                </a>
               </div>
             </div>
           </div>
@@ -305,14 +332,16 @@
                   class="gray-dark p-3 mb-0 flex-grow-1 d-flex h-100 text-uppercase"
                 >
                   <h4 class="font-weight-bold my-0 m-auto">
-                    <a href="#" class="link-unstyled stretched-link"
-                      >Oszczędzasz do 20%</a
-                    >
+                    <a href="#" class="link-unstyled stretched-link">
+                      <span lang="pl">Oszczędzasz do 20%</span>
+                      <span lang="eng">Save up to 20%</span>
+                    </a>
                   </h4>
                 </div>
                 <div class="gray-light p-3 mb-0 text-right d-none d-lg-block">
                   <p class="font-weight-bold my-0">
-                    Wyprzedaż już trwa
+                    <span lang="pl">Wyprzedaż już trwa</span>
+                    <span lang="eng">Sale is on</span>
                   </p>
                   <small class="text-small"
                     >Lorem ipsum dolor sit consectetur.</small
@@ -329,7 +358,8 @@
               >
                 <div>
                   <h3 class="card-title text-uppercase font-weight-bold py-2">
-                    Domowa hodowla
+                    <span lang="pl">Domowa hodowla</span>
+                    <span lang="eng">Home growing</span>
                   </h3>
                   <p class="w-75 pb-3 m-auto">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -339,8 +369,10 @@
                   <a
                     href="#"
                     class="btn btn-outline-light mt-lg-5 stretched-link"
-                    >Dowiedz się więcej></a
                   >
+                    <span lang="pl">Dowiedz się więcej ></span>
+                    <span lang="eng">Learn more ></span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -358,9 +390,10 @@
                   class="pb-3 img-fluid"
                 />
                 <h5 class="card-title text-primary">
-                  <a href="#" class="link-unstyled stretched-link"
-                    >Doniczka Kula</a
-                  >
+                  <a href="#" class="link-unstyled stretched-link">
+                    <span lang="pl">Doniczka Kula</span>
+                    <span lang="eng">Sphere Pot</span>
+                  </a>
                 </h5>
                 <p class="mb-0 text-muted font-weight-bold">
                   <span class="pr-3">15,99 PLN</span>
@@ -378,9 +411,10 @@
                   class="pb-3 img-fluid"
                 />
                 <h5 class="card-title text-primary">
-                  <a href="#" class="link-unstyled stretched-link"
-                    >Doniczka Bezzaro</a
-                  >
+                  <a href="#" class="link-unstyled stretched-link">
+                    <span lang="pl">Doniczka Bezzaro</span>
+                    <span lang="eng">Bezzaro Pot</span>
+                  </a>
                 </h5>
                 <p class="mb-0 text-muted font-weight-bold">
                   <span class="pr-3">25,00 PLN</span>
@@ -398,9 +432,10 @@
                   class="pb-3 img-fluid"
                 />
                 <h5 class="card-title text-primary">
-                  <a href="#" class="link-unstyled stretched-link"
-                    >Doniczka Bambusowa</a
-                  >
+                  <a href="#" class="link-unstyled stretched-link">
+                    <span lang="pl">Doniczka Bambusowa</span>
+                    <span lang="eng">Bamboo Pot</span>
+                  </a>
                 </h5>
                 <p class="mb-0 text-muted font-weight-bold">
                   <span class="pr-3">29,99 PLN</span>
@@ -417,13 +452,18 @@
                   alt=""
                   class="card-image-top p-3 img-fluid mb-auto"
                 />
-                <h5 class="card-title text-primary">Doniczki i narzędzia</h5>
+                <h5 class="card-title text-primary">
+                  <span lang="pl">Doniczki i narzędzia</span>
+                  <span lang="eng">Pots and tools</span>
+                </h5>
                 <p class="card-text text-muted">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Dignissimos, dicta?
                 </p>
-                <a href="#" class="btn btn-outline-primary stretched-link">
-                  Poznaj całą ofertę!
+
+                <a href="#" class="btn btn-outline-primary stretched-link"
+                  ><span lang="pl">Poznaj całą ofertę!</span
+                  ><span lang="eng">See more!</span>
                 </a>
               </div>
             </div>
@@ -444,7 +484,10 @@
             >
               <i class="fas fa-truck-moving text-primary fa-4x"></i>
             </div>
-            <p class="text-white text-uppercase mb-0">Darmowa dostawa</p>
+            <p class="text-white text-uppercase mb-0">
+              <span lang="pl">Darmowa dostawa</span>
+              <span lang="eng">Free Delivery</span>
+            </p>
           </div>
           <div
             class="col-lg-3 col-sm-6 d-md-flex align-items-md-center d-lg-block text-center mt-sm-0 mt-3"
@@ -454,7 +497,10 @@
             >
               <i class="icon-test fas fa-credit-card text-primary fa-4x"></i>
             </div>
-            <p class="text-white text-uppercase mb-0">Płatności kartą</p>
+            <p class="text-white text-uppercase mb-0">
+              <span lang="pl">Płtnośc kartą</span>
+              <span lang="eng">Card payment</span>
+            </p>
           </div>
           <div
             class="col-lg-3 col-sm-6 d-md-flex align-items-md-center d-lg-block text-center mt-lg-0 mt-3"
@@ -464,7 +510,10 @@
             >
               <i class="fas fa-desktop text-primary fa-4x"></i>
             </div>
-            <p class="text-white text-uppercase mb-0">Płatności online</p>
+            <p class="text-white text-uppercase mb-0">
+              <span lang="pl">Płatność online</span>
+              <span lang="eng">Online Payment</span>
+            </p>
           </div>
           <div
             class="col-lg-3 col-sm-6 d-md-flex align-items-md-center d-lg-block text-center mt-lg-0 mt-3"
@@ -474,7 +523,10 @@
             >
               <i class="fas fa-box text-primary fa-4x"></i>
             </div>
-            <p class="text-white text-uppercase mb-0">Wysyłka w 24h</p>
+            <p class="text-white text-uppercase mb-0">
+              <span lang="pl">Wysyłka w 24h</span>
+              <span lang="eng">Dispatch in 24h</span>
+            </p>
           </div>
         </div>
       </div>
@@ -482,16 +534,29 @@
 
     <!-- NOWOŚCI -->
     <section class="mt-3">
-      <h5 class="py-3 text-uppercase text-center text-primary font-weight-bold">Nowości w Sklepie</h5>
+      <h5 class="py-3 text-uppercase text-center text-primary font-weight-bold">
+        <span lang="pl">Nowości w Sklepie</span>
+        <span lang="eng">New Arrivals</span>
+      </h5>
       <div class="carousel slide">
         <div class="container">
-          <div id="carousel-wrap" class="carousel-class"></div>  
+          <div id="carousel-wrap" class="carousel-class"></div>
         </div>
-        <a class="carousel-control-prev ">
-          <span><i class="fa fa-angle-left fa-2x prev text-primary" aria-hidden="true"></i></span>
+        <a class="carousel-control-prev">
+          <span
+            ><i
+              class="fa fa-angle-left fa-2x prev text-primary"
+              aria-hidden="true"
+            ></i
+          ></span>
         </a>
         <a class="carousel-control-next">
-          <span><i class="fa fa-angle-right fa-2x next text-primary" aria-hidden="true"></i></span>
+          <span
+            ><i
+              class="fa fa-angle-right fa-2x next text-primary"
+              aria-hidden="true"
+            ></i
+          ></span>
         </a>
       </div>
     </section>
@@ -510,7 +575,8 @@
             </div>
             <div class="text-primary ml-2">
               <h5 class="text-uppercase font-weight-bold">
-                zostań łowcą okazji
+                <span lang="pl">zostań łowcą okazji</span>
+                <span lang="eng">become a bargain hunter</span>
               </h5>
               <small class="d-none d-sm-inline"
                 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
@@ -525,25 +591,38 @@
                 <input
                   type="text"
                   class="form-control"
-                  placeholder="Twój adres email:"
-                  aria-label="Twój adres email:"
+                  placeholder="Email:"
+                  aria-label="Email:"
                 />
                 <div class="input-group-append">
-                  <button class="btn btn-primary" type="button">Dołącz</button>
+                  <button class="btn btn-primary" type="button">
+                    <span lang="pl">Dołącz</span>
+                    <span lang="eng">Join</span>
+                  </button>
                 </div>
               </div>
               <div class="form-check text-primary">
                 <input type="checkbox" class="form-check-input" id="check1" />
-                <label class="form-check-label" for="check1"
-                  >Zgadzam się na przetwarzanie moich danych przez Kiosk</label
-                >
+                <label class="form-check-label" for="check1">
+                  <span lang="pl"
+                    >Zgadzam się na przetwarzanie moich danych przez Kiosk</span
+                  >
+                  <span lang="eng"
+                    >I agree to the processing of my data by Airkiosk</span
+                  >
+                </label>
               </div>
               <div class="form-check text-primary">
                 <input type="checkbox" class="form-check-input" id="check2" />
                 <label class="form-check-label" for="check2"
-                  >Zgadzam się na przetwarzanie moich danych przez
-                  partnerów</label
-                >
+                  ><span lang="pl"
+                    >Zgadzam się na przetwarzanie moich danych przez
+                    Partnerów</span
+                  >
+                  <span lang="eng"
+                    >I agree to the processing of my data by partners</span
+                  >
+                </label>
               </div>
             </form>
           </div>
@@ -551,21 +630,42 @@
       </div>
     </div>
 
-    <!-- BANER - LINKI -->
+    <!-- BANNER - LINKS -->
     <div id="banner-third" class="bg-light mt-4 py-4">
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-sm-6">
             <div class="text-primary">
               <h5 class="text-uppercase font-weight-bold mb-3">
-                Przydatne informacje
+                <span lang="pl">Przydatne informacje</span>
+                <span lang="eng">Usefull information</span>
               </h5>
               <div>
                 <ul class="list-unstyled">
-                  <li><a href="#">Regulamin Sklepu</a></li>
-                  <li><a href="#">Regulamin Promocji</a></li>
-                  <li><a href="#">Regulamin Aukcji</a></li>
-                  <li><a href="#">Regulamin Aukcji</a></li>
+                  <li>
+                    <a href="#"
+                      ><span lang="pl">Regulamin Sklepu</span>
+                      <span lang="eng">Shop Regulations</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span lang="pl">Regulamin Aukcji</span>
+                      <span lang="eng">Auction Regulations</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span lang="pl">Regulamin Promocji</span>
+                      <span lang="eng">Sale Regulations</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span lang="pl">Regulamin Sklepu</span>
+                      <span lang="eng">Shop Regulations</span></a
+                    >
+                  </li>
                 </ul>
               </div>
             </div>
@@ -574,38 +674,39 @@
           <div class="col-lg-3 col-sm-6">
             <div class="text-primary">
               <h5 class="text-uppercase font-weight-bold mb-3">
-                Dla kupującego
+                <span lang="pl">Dla kupującego</span>
+                <span lang="eng">For customers</span>
               </h5>
               <div>
                 <ul class="list-unstyled">
-                  <li><a href="#">Pomoc</a></li>
-                  <li><a href="#">Sposoby dostawy</a></li>
-                  <li><a href="#">Zwroty i gwarancje</a></li>
-                  <li><a href="#">Oferta</a></li>
-                  <li><a href="#">Mapa serwisu</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6">
-            <div class="text-primary">
-              <h5 class="text-uppercase font-weight-bold mb-3 mt-3 mt-lg-0">
-                Kontakt
-              </h5>
-              <div>
-                <ul class="list-unstyled">
-                  <li class="d-flex align-items-center">
-                    <i class="fas fa-phone-alt fa-lg mr-3"></i>
-                    <div>
-                      <p class="font-weight-bold my-0">Telefon</p>
-                      <p class="phone-number my-0">01 012-234-34</p>
-                    </div>
+                  <li>
+                    <a href="#"
+                      ><span lang="pl">Pomoc</span>
+                      <span lang="eng">Help</span></a
+                    >
                   </li>
-                  <li class="mt-3">
-                    <i class="far fa-envelope fa-lg mr-3"></i>
-                    <a href="#" class="font-weight-bold"
-                      ><u>Formularz kontaktowy</u></a
+                  <li>
+                    <a href="#"
+                      ><span lang="pl">Spodoby Dostawy</span>
+                      <span lang="eng">Delivery Options</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span lang="pl">Zwroty i Gwarancje</span>
+                      <span lang="eng">Returns and guarantees</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span lang="pl">Oferta</span>
+                      <span lang="eng">Store Offer</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span lang="pl">Mapa Serwisu</span>
+                      <span lang="eng">Site map</span></a
                     >
                   </li>
                 </ul>
@@ -616,7 +717,40 @@
           <div class="col-lg-3 col-sm-6">
             <div class="text-primary">
               <h5 class="text-uppercase font-weight-bold mb-3 mt-3 mt-lg-0">
-                Metody Płatności
+                <span lang="pl">Kontakt</span>
+                <span lang="eng">Contact</span>
+              </h5>
+              <div>
+                <ul class="list-unstyled">
+                  <li class="d-flex align-items-center">
+                    <i class="fas fa-phone-alt fa-lg mr-3"></i>
+                    <div>
+                      <p class="font-weight-bold my-0">
+                        <span lang="pl">Telefon</span>
+                        <span lang="eng">Phone</span>
+                      </p>
+                      <p class="phone-number my-0">01 012-234-34</p>
+                    </div>
+                  </li>
+                  <li class="mt-3">
+                    <i class="far fa-envelope fa-lg mr-3"></i>
+                    <a href="#" class="font-weight-bold"
+                      ><u
+                        ><span lang="pl">Formularz kontaktowy</span>
+                        <span lang="eng">Contact form</span>
+                      </u></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="text-primary">
+              <h5 class="text-uppercase font-weight-bold mb-3 mt-3 mt-lg-0">
+                <span lang="pl">Metody Płatności</span>
+                <span lang="eng">Payment Methods</span>
               </h5>
               <div class="row justify-content-start align-items-center">
                 <div class="col pr-0">
@@ -678,16 +812,23 @@
           <div class="col-md-12 col-lg-6 pr-lg-0">
             <ul class="nav">
               <li class="nav-item text-uppercase font-weight-bold my-auto">
-                <a href="#" class="nav-link pl-0">Strona główna</a>
+                <a href="#" class="nav-link pl-0">Home</a>
               </li>
               <li class="nav-item text-uppercase font-weight-bold my-auto">
-                <a href="#" class="nav-link">Usługi</a>
+                <a href="#" class="nav-link">
+                  <span lang="pl">Usługi</span><span lang="eng">Services</span>
+                </a>
               </li>
               <li class="nav-item text-uppercase font-weight-bold my-auto">
-                <a href="#" class="nav-link pl-0 pl-sm-3">Nowości</a>
+                <a href="#" class="nav-link pl-0 pl-sm-3">
+                  <span lang="pl">Nowości</span
+                  ><span lang="eng">New arrivals</span>
+                </a>
               </li>
               <li class="nav-item text-uppercase font-weight-bold my-auto">
-                <a href="#" class="nav-link pr-lg-0">Promocje</a>
+                <a href="#" class="nav-link pr-lg-0 pl-0 pl-sm-3">
+                  <span lang="pl">Promocje</span><span lang="eng">Sale</span>
+                </a>
               </li>
             </ul>
           </div>
@@ -697,9 +838,10 @@
               <li
                 class="nav-item text-primary text-uppercase font-weight-bold nav-link ml-lg-auto pl-0"
               >
-                znajdź nas na:
+                <span lang="pl">znajdź nas na:</span>
+                <span lang="eng">find us on:</span>
               </li>
-              <li class="my-auto">
+              <li id="sns" class="my-auto">
                 <a href="#">
                   <i class="fab fa-facebook-square fa-2x mx-1"></i>
                 </a>
@@ -742,17 +884,16 @@
       crossorigin="anonymous"
     ></script>
     <script src="./index.js"></script>
+    <script src="./language-switcher.js"></script>
     <script>
-      $('.carousel').carousel({
+      $(".carousel").carousel({
         interval: 6000,
         keyboard: true,
-        pause: 'hover',
+        pause: "hover",
         wrap: true,
       });
 
       loadCarousel();
     </script>
-    
-
   </body>
 </html>
