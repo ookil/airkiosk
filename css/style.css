@@ -110,6 +110,40 @@ nav input {
   background-position: center;
 }
 
+.focus-line {
+  position: relative;
+}
+
+.focus-line::before {
+  position: absolute;
+  top: 50%;
+  right: calc(50% + 60px);
+  content: "";
+  display: block;
+  width: 20%;
+  height: 2px;
+  background: currentColor;
+}
+
+.focus-line::after {
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 60px);
+  content: "";
+  display: block;
+  width: 20%;
+  height: 2px;
+  background: currentColor;
+}
+
+#news .focus-line::before {
+  right: calc(50% + 140px);
+}
+
+#news .focus-line::after {
+  left: calc(50% + 140px);
+}
+
 .card {
   border: none;
 }
@@ -124,14 +158,14 @@ nav input {
 }
 
 #box-1 {
-  background: url(/img/daniel-oberg-sEApBUS4fIk-unsplash.jpg);
+  background: url(../img/daniel-oberg-sEApBUS4fIk-unsplash.jpg);
   height: 370px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #box-2 {
-  background: url(/img/bady-abbas-46xWt_kBFDw-unsplash.jpg);
+  background: url(../img/bady-abbas-46xWt_kBFDw-unsplash.jpg);
   height: 370px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -153,7 +187,7 @@ nav input {
 }
 
 #banner-second {
-  background: url(/img/zhen-hu-dO5quaqAYg0-unsplash.jpg);
+  background: url(../img/zhen-hu-dO5quaqAYg0-unsplash.jpg);
   background-size: cover;
   background-position: center;
 }

@@ -5,7 +5,8 @@
         "title": "First Product",
         "description": "Lorem ipsum",
         "href": "#",
-        "price": "23.90"
+        "pricePLN": "23.90",
+        "priceUSD": "3.90"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "title": "Second Product",
         "description": "AFDGS89",
         "href": "#",
-        "price": "26.99"
+        "pricePLN": "26.99",
+        "priceUSD": "9.90"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "title": "Third Product",
         "description": "DSFDSF",
         "href": "#",
-        "price": "12.80"
+        "pricePLN": "12.80",
+        "priceUSD": "5.90"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "title": "Fourth Product",
         "description": "1238XCB",
         "href": "#",
-        "price": "39.90"
+        "pricePLN": "39.90",
+        "priceUSD": "4.90"
     },
     {
         "id": 5,
@@ -37,6 +41,7 @@
         "title": "Fifth Product",
         "description": "NDFGLFD",
         "href": "#",
-        "price": "96.90"
+        "pricePLN": "96.90",
+        "priceUSD": "20.00"
     }
 ]

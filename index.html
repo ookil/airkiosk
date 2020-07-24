@@ -70,11 +70,12 @@
             aria-haspopup="true"
             aria-expanded="false"
           >
-            PLN
+            <span currency="pln">PLN</span>
+            <span currency="usd">USD</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownCurrency">
-            <a href="#" class="dropdown-item active">PLN</a>
-            <a href="#" class="dropdown-item">USD</a>
+            <a href="#" id="pln-currency" class="dropdown-item active">PLN</a>
+            <a href="#" id="usd-currency" class="dropdown-item">USD</a>
           </div>
         </li>
       </ul>
@@ -84,7 +85,7 @@
       class="container navbar navbar-expand-lg navbar-primary navbar-light"
     >
       <a href="#" class="navbar-brand">
-        <img src="/img/logo.svg" alt="logo" width="80" height="80" />
+        <img src="./img/logo.svg" alt="logo" width="80" height="80" />
       </a>
       <div class="d-none d-lg-block ml-lg-auto">
         <span lang="pl">Numer twojej Rezerwacji</span>
@@ -102,6 +103,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
     </nav>
+    <!-- NAV MENU LINKS -->
     <nav class="container navbar navbar-expand-lg pb-4">
       <div id="navbarMenu" class="collapse navbar-collapse text-primary">
         <ul class="navbar-nav">
@@ -131,7 +133,7 @@
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link fancy-link pl-2"
-              ><span lang="pl">Promocje</span><span lang="eng">Sale</span></a
+              ><span lang="pl">Promocje</span><span lang="eng">Sales</span></a
             >
           </li>
         </ul>
@@ -159,7 +161,7 @@
       </div>
     </nav>
 
-    <!-- CAROUSEL -->
+    <!-- MAIN CAROUSEL -->
     <div id="slider1" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li class="active" data-target="#slider1" data-slide-to="0"></li>
@@ -177,8 +179,14 @@
                 <span lang="eng">Adopt succulents</span>
               </h3>
               <p class="d-none d-md-inline">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                dolores et quae. Fugiat, cum minima.
+                <span lang="pl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  dolores et quae. Fugiat, cum minima.
+                </span>
+                <span lang="eng">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  dolores et quae. Fugiat, cum minima.
+                </span>
               </p>
               <a href="#" class="btn btn-outline-light btn-lg mt-2">
                 <span lang="pl">Nasze okazy!</span>
@@ -195,8 +203,14 @@
             >
               <h3 class="display-4">Slide2</h3>
               <p class="d-none d-md-inline">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                dolores et quae. Fugiat, cum minima.
+                <span lang="pl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  dolores et quae. Fugiat, cum minima.
+                </span>
+                <span lang="eng">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  dolores et quae. Fugiat, cum minima.
+                </span>
               </p>
             </div>
           </div>
@@ -209,14 +223,20 @@
             >
               <h3 class="display-4">Slide3</h3>
               <p class="d-none d-md-inline">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                dolores et quae. Fugiat, cum minima.
+                <span lang="pl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  dolores et quae. Fugiat, cum minima.
+                </span>
+                <span lang="eng">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  dolores et quae. Fugiat, cum minima.
+                </span>
               </p>
             </div>
           </div>
         </div>
       </div>
-      <!-- CONTROLS -->
+      <!-- CAROUSEL CONTROLS -->
       <a href="#slider1" class="carousel-control-prev" data-slide="prev">
         <span><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i></span>
       </a>
@@ -235,14 +255,20 @@
             <div class="card w-100">
               <div class="card-body text-center flex-fill">
                 <img
-                  src="/img/rainier-ridao-YUIGZ33SB_0-unsplash.jpg"
+                  src="./img/rainier-ridao-YUIGZ33SB_0-unsplash.jpg"
                   alt=""
                   class="card-image-top p-3 img-fluid mb-auto"
                 />
-                <h5 class="card-title text-primary">Dignissimos</h5>
+                <h5 class="card-title text-primary font-weight-bold focus-line">Dignissimos</h5>
                 <p class="card-text text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dignissimos, dicta?
+                  <span lang="pl">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dignissimos, dicta?
+                  </span>
+                  <span lang="eng">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dignissimos, dicta?
+                  </span>
                 </p>
                 <a href="#" class="btn btn-outline-primary stretched-link"
                   ><span lang="pl">Poznaj całą ofertę!</span
@@ -256,21 +282,28 @@
             <div class="card w-100">
               <div class="card-body text-center flex-fill">
                 <img
-                  src="/img/stephanie-harvey-wDhLrN9FAAM-unsplash.jpg"
+                  src="./img/stephanie-harvey-wDhLrN9FAAM-unsplash.jpg"
                   alt=""
                   class="pb-3 img-fluid"
                 />
-                <h5 class="card-title text-primary">
+                <h5 class="card-title text-primary font-weight-bold">
                   <a href="#" class="link-unstyled stretched-link"
                     >Mammillaria</a
                   >
                 </h5>
                 <p class="card-text text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dignissimos, dicta?
+                  <span lang="pl">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dignissimos, dicta?
+                  </span>
+                  <span lang="eng">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dignissimos, dicta?
+                  </span>
                 </p>
                 <p class="mb-0 text-muted font-weight-bold">
-                  <span class="pr-3">25,99 PLN</span><del>39,99</del>
+                  <span currency="pln" ><span class="font-weight-bold h5 pr-3">25,99 PLN</span><del>39,99 PLN</del></span>
+                  <span currency="usd" ><span class="font-weight-bold h5 pr-3">5,99 USD</span><del>9,99 USD</del></span>
                 </p>
               </div>
             </div>
@@ -280,21 +313,28 @@
             <div class="card w-100">
               <div class="card-body text-center flex-fill">
                 <img
-                  src="/img/lina-silivanova-ywRYbp-6p8c-unsplash.jpg"
+                  src="./img/lina-silivanova-ywRYbp-6p8c-unsplash.jpg"
                   alt=""
                   class="pb-3 img-fluid"
                 />
-                <h5 class="card-title text-primary">
+                <h5 class="card-title text-primary font-weight-bold">
                   <a href="#" class="link-unstyled stretched-link"
                     >Myrtillocactus</a
                   >
                 </h5>
                 <p class="card-text text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dignissimos, dicta?
+                  <span lang="pl">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dignissimos, dicta?
+                  </span>
+                  <span lang="eng">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dignissimos, dicta?
+                  </span>
                 </p>
                 <p class="mb-0 text-muted font-weight-bold">
-                  <span class="pr-3">49,99 PLN</span><del>85,99</del>
+                  <span currency="pln" ><span class="font-weight-bold h5 pr-3">35,99 PLN</span><del>79,99 PLN</del></span>
+                  <span currency="usd" ><span class="font-weight-bold h5 pr-3">10,99 USD</span><del>30,99 USD</del></span>
                 </p>
               </div>
             </div>
@@ -304,19 +344,26 @@
             <div class="card w-100">
               <div class="card-body text-center flex-fill">
                 <img
-                  src="/img/stephanie-harvey-f7PfM2NklZ4-unsplash.jpg"
+                  src="./img/stephanie-harvey-f7PfM2NklZ4-unsplash.jpg"
                   alt=""
                   class="pb-3 img-fluid"
                 />
-                <h5 class="card-title text-primary">
+                <h5 class="card-title text-primary font-weight-bold">
                   <a href="#" class="link-unstyled stretched-link">Rebutia</a>
                 </h5>
                 <p class="card-text text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dignissimos, dicta?
+                  <span lang="pl">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dignissimos, dicta?
+                  </span>
+                  <span lang="eng">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dignissimos, dicta?
+                  </span>
                 </p>
                 <p class="mb-0 text-muted font-weight-bold">
-                  <span class="pr-3">36,99 PLN</span><del>59,99</del>
+                  <span currency="pln" ><span class="font-weight-bold h5 pr-3">15,99 PLN</span><del>29,99 PLN</del></span>
+                  <span currency="usd" ><span class="font-weight-bold h5 pr-3">6,99 USD</span><del>15,99 USD</del></span>
                 </p>
               </div>
             </div>
@@ -362,9 +409,16 @@
                     <span lang="eng">Home growing</span>
                   </h3>
                   <p class="w-75 pb-3 m-auto">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Maiores, quae. Exercitationem consequuntur dolore maiores et
-                    eos nihil ipsa, a ducimus?
+                    <span lang="pl">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Maiores, quae. Exercitationem consequuntur dolore maiores et
+                      eos nihil ipsa, a ducimus?
+                    </span>
+                    <span lang="eng">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Maiores, quae. Exercitationem consequuntur dolore maiores et
+                      eos nihil ipsa, a ducimus?
+                    </span>
                   </p>
                   <a
                     href="#"
@@ -385,18 +439,19 @@
             <div class="card w-100">
               <div class="card-body text-center flex-fill">
                 <img
-                  src="/img/biala-doniczka-piano-kula.jpg"
+                  src="./img/biala-doniczka-piano-kula.jpg"
                   alt=""
                   class="pb-3 img-fluid"
                 />
-                <h5 class="card-title text-primary">
+                <h6 class="card-title text-primary text-uppercase font-weight-bold">
                   <a href="#" class="link-unstyled stretched-link">
                     <span lang="pl">Doniczka Kula</span>
                     <span lang="eng">Sphere Pot</span>
                   </a>
-                </h5>
-                <p class="mb-0 text-muted font-weight-bold">
-                  <span class="pr-3">15,99 PLN</span>
+                </h6>
+                <p class="mb-0 text-muted ">
+                  <span currency="pln" class="font-weight-bold h5">15,99 PLN</span>
+                  <span currency="usd" class="font-weight-bold h5">5,99 USD</span>
                 </p>
               </div>
             </div>
@@ -406,18 +461,19 @@
             <div class="card w-100">
               <div class="card-body text-center flex-fill">
                 <img
-                  src="/img/Doniczka_GoodHome_Terrazzo_12_cm_biala-632132-515575.jpg"
+                  src="./img/Doniczka_GoodHome_Terrazzo_12_cm_biala-632132-515575.jpg"
                   alt=""
                   class="pb-3 img-fluid"
                 />
-                <h5 class="card-title text-primary">
+                <h6 class="card-title text-primary text-uppercase font-weight-bold">
                   <a href="#" class="link-unstyled stretched-link">
                     <span lang="pl">Doniczka Bezzaro</span>
                     <span lang="eng">Bezzaro Pot</span>
                   </a>
-                </h5>
+                </h6>
                 <p class="mb-0 text-muted font-weight-bold">
-                  <span class="pr-3">25,00 PLN</span>
+                  <span currency="pln" class="font-weight-bold h5">25,00 PLN</span>
+                  <span currency="usd" class="font-weight-bold h5">9,99 USD</span>
                 </p>
               </div>
             </div>
@@ -427,18 +483,19 @@
             <div class="card w-100">
               <div class="card-body text-center flex-fill">
                 <img
-                  src="/img/Oslonka_doniczki_Bamboo_16_cm_biala-633182-528832.jpg"
+                  src="./img/Oslonka_doniczki_Bamboo_16_cm_biala-633182-528832.jpg"
                   alt=""
                   class="pb-3 img-fluid"
                 />
-                <h5 class="card-title text-primary">
+                <h6 class="card-title text-primary text-uppercase font-weight-bold">
                   <a href="#" class="link-unstyled stretched-link">
                     <span lang="pl">Doniczka Bambusowa</span>
                     <span lang="eng">Bamboo Pot</span>
                   </a>
-                </h5>
+                </h6>
                 <p class="mb-0 text-muted font-weight-bold">
-                  <span class="pr-3">29,99 PLN</span>
+                  <span currency="pln" class="font-weight-bold h5">29,99 PLN</span>
+                  <span currency="usd" class="font-weight-bold h5">10,99 USD</span>
                 </p>
               </div>
             </div>
@@ -448,20 +505,20 @@
             <div class="card w-100">
               <div class="card-body text-center flex-fill">
                 <img
-                  src="/img/eco-warrior-princess-TsOeGUwWzWo-unsplash.jpg"
+                  src="./img/eco-warrior-princess-TsOeGUwWzWo-unsplash.jpg"
                   alt=""
                   class="card-image-top p-3 img-fluid mb-auto"
                 />
-                <h5 class="card-title text-primary">
-                  <span lang="pl">Doniczki i narzędzia</span>
-                  <span lang="eng">Pots and tools</span>
-                </h5>
+                <h6 class="card-title text-primary text-uppercase font-weight-bold focus-line">
+                  <span lang="pl">Doniczki <br> i narzędzia</span>
+                  <span lang="eng">Pots and <br> tools</span>
+                </h6>
                 <p class="card-text text-muted">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Dignissimos, dicta?
                 </p>
 
-                <a href="#" class="btn btn-outline-primary stretched-link"
+                <a href="#" class="btn btn-primary stretched-link"
                   ><span lang="pl">Poznaj całą ofertę!</span
                   ><span lang="eng">See more!</span>
                 </a>
@@ -472,7 +529,7 @@
       </div>
     </section>
 
-    <!-- BANER -->
+    <!-- BANNER - FEATURES -->
     <div class="bg-primary py-3 mt-2">
       <div class="container">
         <div class="row">
@@ -532,12 +589,14 @@
       </div>
     </div>
 
-    <!-- NOWOŚCI -->
-    <section class="mt-3">
-      <h5 class="py-3 text-uppercase text-center text-primary font-weight-bold">
-        <span lang="pl">Nowości w Sklepie</span>
-        <span lang="eng">New Arrivals</span>
-      </h5>
+    <!-- SECOND CAROUSEL -->
+    <section id="news" class="mt-3">
+      <div class="container">
+        <h5 class="py-3 text-uppercase text-center text-primary font-weight-bold focus-line">
+          <span lang="pl">Nowości w Sklepie</span>
+          <span lang="eng">New Arrivals</span>
+        </h5>
+      </div>
       <div class="carousel slide">
         <div class="container">
           <div id="carousel-wrap" class="carousel-class"></div>
@@ -561,7 +620,7 @@
       </div>
     </section>
 
-    <!-- BANER - OKAZJE -->
+    <!-- BANNER - MAILING -->
     <div id="banner-second" class="py-3 mt-4">
       <div class="container">
         <div class="row">
@@ -755,21 +814,21 @@
               <div class="row justify-content-start align-items-center">
                 <div class="col pr-0">
                   <img
-                    src="/img/MasterCard_Logo.svg"
+                    src="./img/MasterCard_Logo.svg"
                     alt="master card"
                     class="img-fluid"
                   />
                 </div>
                 <div class="col pr-0">
                   <img
-                    src="/img/Visa_Inc._logo.svg"
+                    src="./img/Visa_Inc._logo.svg"
                     alt="visa"
                     class="img-fluid"
                   />
                 </div>
                 <div class="col">
                   <img
-                    src="/img/PayPal2007.svg"
+                    src="./img/PayPal2007.svg"
                     alt="paypal"
                     class="img-fluid"
                   />
@@ -779,21 +838,21 @@
               <div class="row align-items-center mt-3">
                 <div class="col pr-0">
                   <img
-                    src="/img/Maestro_logo.svg"
+                    src="./img/Maestro_logo.svg"
                     alt="maestro"
                     class="img-fluid"
                   />
                 </div>
                 <div class="col pr-0">
                   <img
-                    src="/img/visa-electron.png"
+                    src="./img/visa-electron.png"
                     alt="visa electron"
                     class="img-fluid"
                   />
                 </div>
                 <div class="col">
                   <img
-                    src="/img/american-express-inverted_82085.png"
+                    src="./img/american-express-inverted_82085.png"
                     alt="american express"
                     class="img-fluid"
                   />
@@ -806,7 +865,7 @@
     </div>
 
     <!-- FOOTER -->
-    <footer class="mt-4">
+    <footer class="mt-4 pb-4">
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-lg-6 pr-lg-0">
@@ -883,11 +942,12 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
-    <script src="./index.js"></script>
-    <script src="./language-switcher.js"></script>
+    <script src="./js/carousel-init.js"></script>
+    <script src="./js/language-switcher.js"></script>
+    <script src="./js/currency-switcher.js"></script>
     <script>
       $(".carousel").carousel({
-        interval: 6000,
+        interval: 8000,
         keyboard: true,
         pause: "hover",
         wrap: true,
