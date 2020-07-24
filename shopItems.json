@@ -2,41 +2,46 @@
     {
         "id": 1,
         "img": "./img/pic_1.png",
-        "title": "First Image",
+        "title": "First Product",
         "description": "Lorem ipsum",
         "href": "#",
-        "price": "23.90"
+        "pricePLN": "23.90",
+        "priceUSD": "3.90"
     },
     {
         "id": 2,
         "img": "./img/pic_2.png",
-        "title": "Second Image",
+        "title": "Second Product",
         "description": "AFDGS89",
         "href": "#",
-        "price": "26.99"
+        "pricePLN": "26.99",
+        "priceUSD": "9.90"
     },
     {
         "id": 3,
         "img": "./img/pic_3.png",
-        "title": "Third Image",
+        "title": "Third Product",
         "description": "DSFDSF",
         "href": "#",
-        "price": "12.80"
+        "pricePLN": "12.80",
+        "priceUSD": "5.90"
     },
     {
         "id": 4,
         "img": "./img/pic_4.png",
-        "title": "Fourth Image",
+        "title": "Fourth Product",
         "description": "1238XCB",
         "href": "#",
-        "price": "39.90"
+        "pricePLN": "39.90",
+        "priceUSD": "4.90"
     },
     {
         "id": 5,
         "img": "./img/pic_5.png",
-        "title": "Fifth Image",
+        "title": "Fifth Product",
         "description": "NDFGLFD",
         "href": "#",
-        "price": "96.90"
+        "pricePLN": "96.90",
+        "priceUSD": "20.00"
     }
 ]
