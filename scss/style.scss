@@ -96,17 +96,17 @@ nav {
 }
 
 .carousel-image-1 {
-  background: url(../img/yousef-espanioly-AWYI4-h3VnM-unsplash.jpg);
+  background: url(../img/slide_1.jpg);
   background-size: cover;
 }
 
 .carousel-image-2 {
-  background: url(../img/nahil-naseer-xljtGZ2-P3Y-unsplash.jpg);
+  background: url(../img/slide_2.jpg);
   background-size: cover;
 }
 
 .carousel-image-3 {
-  background: url(../img/radek-vebr-PImY68gNh9o-unsplash.jpg);
+  background: url(../img/slide_3.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -140,11 +140,11 @@ nav {
 #news {
   .focus-line {
     &::before {
-      right: calc(50% + 140px);
+      right: calc(50% + 120px);
     }
 
     &::after {
-      left: calc(50% + 140px);
+      left: calc(50% + 120px);
     }
   }
 }
@@ -164,12 +164,12 @@ nav {
 }
 
 #box-1 {
-  background: url(../img/daniel-oberg-sEApBUS4fIk-unsplash.jpg);
+  background: url(../img/box_1.jpg);
   @include box;
 }
 
 #box-2 {
-  background: url(../img/bady-abbas-46xWt_kBFDw-unsplash.jpg);
+  background: url(../img/box_2.jpg);
   @include box;
 }
 
@@ -189,7 +189,7 @@ nav {
 }
 
 #banner-second {
-  background: url(../img/zhen-hu-dO5quaqAYg0-unsplash.jpg);
+  background: url(../img/banner);
   background-size: cover;
   background-position: center;
 }
