@@ -1,6 +1,7 @@
 # Airkiosk 
 
 Shop template website made with Bootstrap 4
+[Live Demo](https://ookil.github.io/airkiosk/)
 
 ### Technologies 
 
